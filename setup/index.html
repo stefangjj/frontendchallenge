@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Frontend challenge</title>
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link href="https://embedsocial.com/cdn/fonts/roboto/stylesheet.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="lightbox.css" />
+</head>
+
+<body>
+	<div class="header-container">
+		<label class="switch">
+			<input type="checkbox" id="darkModeCheckbox">
+			<span class="slider round"></span>
+		</label>
+	</div>
+	<h1 id="title">Social Media - Embed Social</h1>
+	<div class="layout-container">
+		
+	</div>
+
+	<button id="loadButton">Load More</button>
+
+	<div id="lightbox" class="lightbox-container">
+		<span class="lightbox-close">&times;</span>
+		<div class="objects">
+			<img id="lightbox-image" class="lightbox-image" src="" alt="image">
+			<div class="except-image">
+				<div class="profile_name">
+					<img id="lightbox-profile_image" class="lightbox-profile_image" src="" alt="profile-image">
+					<div id="lightbox-name" class="lightbox-name"></div>
+				</div>
+			
+			<div id="lightbox-caption" class="lightbox-caption"></div>
+			<div class="heartAndLikes">
+				<img id="lightbox-heart" class="lightbox-heart" src="" alt="heart">
+				<div id="lightbox-likes" class="lightbox-likes"></div>
+			</div>
+			
+
+			</div>
+			
+		</div>
+		
+	</div>
+	<script src="index.js"></script>
+	<script src="lightbox.js"></script>
+</body>
+</html>
